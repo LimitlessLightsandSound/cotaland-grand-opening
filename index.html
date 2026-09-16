@@ -227,6 +227,12 @@
   .sig .nm{font-family:'Bebas Neue';font-size:28px;color:var(--ivory);letter-spacing:.08em}
   .sig .rl{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--amber)}
   .sig .ct{font-family:'Archivo';font-size:13px;color:var(--aqua-2);margin-top:9px;font-weight:300}
+  .sig-pair{display:inline-flex;gap:64px;flex-wrap:wrap;justify-content:center;
+    padding-top:32px;border-top:1px solid var(--line);margin-top:6px}
+  .sig2{display:flex;flex-direction:column;align-items:center;gap:4px}
+  .sig2 .nm{font-family:'Bebas Neue';font-size:28px;color:var(--ivory);letter-spacing:.08em}
+  .sig2 .rl{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--amber)}
+  .sig2 .ct{font-family:'Archivo';font-size:13px;color:var(--aqua-2);margin-top:9px;font-weight:300;line-height:1.65}
 
   footer{border-top:1px solid var(--line-soft);padding:26px 0}
   .foot-in{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;color:var(--aqua-2)}
@@ -249,6 +255,7 @@
     .gtk{grid-template-columns:1fr;gap:24px}
     .hero-foot{gap:22px}
     .invest{padding:36px 22px}
+    .sig-pair{gap:34px;flex-direction:column}
     .tl-row{grid-template-columns:1fr;gap:8px;padding:18px 0}
     .tl-when{display:flex;align-items:baseline;gap:12px}
   }
@@ -771,11 +778,18 @@
 <section class="close">
   <div class="wrap">
     <h2 class="reveal">Let's open this thing <em>properly.</em></h2>
-    <p class="reveal">Nine days is tight but it is not a problem, and our shop is already set up around it. Send us the vendor packet whenever you are ready and we will turn it the same day. Anything on this page you want changed, call and we will rework it on the spot.</p>
-    <div class="sig reveal">
-      <div class="nm">Brian Fisher</div>
-      <div class="rl">your account manager at Limitless</div>
-      <div class="ct">brian@limitlesslightsandsound.com&nbsp;&nbsp;·&nbsp;&nbsp;(737) 247-1131</div>
+    <p class="reveal">Nine days is tight but it is not a problem, and our shop is already set up around it. Send us the vendor packet whenever you are ready and we will turn it the same day. Anything on this page you want changed, call either of us and we will rework it on the spot.</p>
+    <div class="sig-pair reveal">
+      <div class="sig2">
+        <div class="nm">Brian Fisher</div>
+        <div class="rl">your account manager</div>
+        <div class="ct">brian@limitlesslightsandsound.com<br>(737) 247-1131</div>
+      </div>
+      <div class="sig2">
+        <div class="nm">Dash Speer</div>
+        <div class="rl">owner &amp; CEO</div>
+        <div class="ct">dash@limitlesslightsandsound.com<br>(281) 787-9069</div>
+      </div>
     </div>
   </div>
 </section>
